@@ -1,11 +1,6 @@
-body, html {
+html, body, #root {
   margin: 0;
   padding: 0;
-  height: 100%;
-  width: 100%;
-}
-
-#root {
   height: 100%;
   width: 100%;
 }
@@ -27,8 +22,8 @@ body, html {
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 90%;
-  width: 400px;
+  width: 80%;
+  max-width: 500px;
 }
 
 h1 {
@@ -52,6 +47,7 @@ button {
   color: white;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin: 1rem 0;
 }
 
 button:hover {
@@ -84,8 +80,8 @@ button:active {
 
 @media (max-width: 600px) {
   .content {
-    padding: 1rem;
     width: 90%;
+    padding: 1rem;
   }
 
   .color-display {
