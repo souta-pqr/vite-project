@@ -32,6 +32,7 @@ function App() {
               className="color-swatch"
               style={{ backgroundColor: `#${c}` }}
               onClick={() => setColor(`#${c}`)}
+              title={`#${c}`}
             />
           ))}
         </div>
